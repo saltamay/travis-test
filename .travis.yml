@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- stable
+- '6'
+- '4'
+deploy:
+  provider: heroku
+  api_key:
+    secure: CP5SDy6upcxwTsTt+jX/osA9PV2aVMDqOEgV37/J2BUDlJwBYoe8Qat0tY9JcSzB9bHPRfWLXJOvyfp4GCc86at082l02eSCHMfWRmvi7JDX0lpQJVfCLdwpeWoYDvZTVYfp9qbHap57AeeHdton1S65MeKO0UP9Knd4ZJoTeUnxH3QI2TSgY8YjGI94SyZVfx2GZXo9EPcLGDTrN/GMPGRQKT7Qc/mUM/qelCUxEgT7w8xy2BpBwNSs7EnftrUerJPqUXiLfquq7luwChWdbDhM+Yp7dOWwbYQMmBs0C04TZCUp29ohUCd8CGUgqdeheNlzM/xgRlNVR3rNpyKb7yvjWe+LKgxnRa4uQeqQukc8+ey79tZuqwbkifLGtZ6sEskjDtZ8GLYKNDQ72q660fNtN75FoAR9rpGEaorpr30LckaCGUnDzsobTrXAj7p7Q5dFEkw8J2aBhp3CYpT2pjuJRuXPVRFRSNo1496fqh5UKWAGdOU80Tjf4/6OJQDxQJnKHutVJcYfygV6mY0AnDTmlj2aJ2SC/sXMqNviLWK119StNlA5qiGtzZJRfPktZ1N6bt0ZdkT5Bfyn3kQBaOEWQyKNzeDzLruDHahnx2fPIyq13uZZKfYNU69tD4bYkUXxUQu8AydOO2mgGo8ebWRy9x+bYYEpPqLkqsBNq/Y=
+  app: travis-test
+  on:
+    repo: saltamay/travis-test
